@@ -1,0 +1,67 @@
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  outline: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-prime {
+  background-color: #FF6B6B;
+}
+
+.button-fibonacci {
+  background-color: #FFE66D;
+}
+
+.button-even {
+  background-color: #88D8B0;
+}
+
+.button-random {
+  background-color: #69B4FF;
+}
+
+.buttons-container button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.button-prime:hover, .button-fibonacci:hover, .button-even:hover, .button-random:hover {
+  color: black;
+}
+
+.tile {
+  background-color: rgba(11, 11, 11, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
